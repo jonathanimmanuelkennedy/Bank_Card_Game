@@ -1,0 +1,39 @@
+h1 {
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    
+    color: #3C3C3B;
+}
+
+#back {
+    position: absolute;
+width: 75px;
+height: 75px;
+right: 100px;
+top: 85px;
+
+}
+
+hr {
+    position: absolute;
+left: 4.79%;
+right: 4.93%;
+top: 170px;
+
+border: 0.5px solid #000000;
+}
+
+#settings {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+
+}

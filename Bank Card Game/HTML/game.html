@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>SINGLEPLAYER</title>
+
+        <link rel="stylesheet" href="/Users/jonathanimmanuelkennedy/Documents/Programs/Projects/Vue_Projects/Bank_Card_Game_Project/CSS/game.css">
+
+        <script src="https://unpkg.com/vue@next" defer></script>
+        <script src="app.js" defer></script>
+
+    </head>
+
+    <body>
+
+        <div id="game">
+
+            <h1>SINGLEPLAYER</h1>
+
+            <input type="image" name="back" id="back" src="/Users/jonathanimmanuelkennedy/Documents/Programs/Projects/Vue_Projects/Bank_Card_Game_Project/IMAGES/back.png">
+
+            <hr>
+
+            <img id="oppenent" src="/Users/jonathanimmanuelkennedy/Documents/Programs/Projects/Vue_Projects/Bank_Card_Game_Project/IMAGES/avatar_1.png">
+
+            <img id="player" src="/Users/jonathanimmanuelkennedy/Documents/Programs/Projects/Vue_Projects/Bank_Card_Game_Project/IMAGES/avatar_2.png">
+
+            <img id="opp_img" src="/Users/jonathanimmanuelkennedy/Documents/Programs/Projects/Vue_Projects/Bank_Card_Game_Project/IMAGES/circle.png">
+
+            <img id="play_img" src="/Users/jonathanimmanuelkennedy/Documents/Programs/Projects/Vue_Projects/Bank_Card_Game_Project/IMAGES/circle.png">
+
+            <h2 id="text1">Opponent</h2>
+
+            <h2 id="text2">You</h2>
+
+                <div id="decks">
+
+                    <h3 id="opp_deck">{{ aiDeckLength }}</h3>
+
+                    <h3 id="play_deck">{{ playerDeckLength }}</h3>
+
+                </div>
+
+            <input :disabled="isDisabled" @click="player_click" type="image" name="deck" id="deck" src="/Users/jonathanimmanuelkennedy/Documents/Programs/Projects/Vue_Projects/Bank_Card_Game_Project/IMAGES/deck.png">
+
+            <h3 id="stash">Stash</h3>
+
+            <h3 id="opp_card">{{ opp_card }}</h3>
+
+            <h3 id="play_card">{{ play_card }}</h3>
+
+            <button id="start" @click="startGame" :disabled="isOver">START NEW GAME</button>
+
+        </div>
+        
+    </body>
+
+</html>

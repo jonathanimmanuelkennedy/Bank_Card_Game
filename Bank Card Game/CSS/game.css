@@ -1,0 +1,210 @@
+h1 {
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    
+    color: #3C3C3B;
+}
+
+#back {
+    position: absolute;
+width: 75px;
+height: 75px;
+right: 100px;
+top: 85px;
+
+}
+
+hr {
+    position: absolute;
+left: 4.79%;
+right: 4.93%;
+top: 170px;
+
+border: 0.5px solid #000000;
+}
+
+#oppenent {
+
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    left: 100px;
+    top: 250px;
+
+}
+
+#player {
+
+    position: absolute;
+width: 90px;
+height: 100px;
+right: 100px;
+top: 250px;
+
+}
+
+#opp_img {
+
+    box-sizing: border-box;
+
+position: absolute;
+left: 75px;
+top: 230px;
+width: 140px;
+height: 140px;
+
+}
+
+#play_img {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    right: 75px;
+    top: 230px;
+    width: 140px;
+height: 140px;
+
+}
+
+#text1 {
+
+    position: absolute;
+left: 75px;
+top: 330px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 100px;
+/* or 312% */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+#text2 {
+
+    position: absolute;
+right: 120px;
+top: 330px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 100px;
+/* or 312% */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+#opp_deck {
+
+    position: absolute;
+left: 125px;
+top: 370px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 100px;
+/* or 312% */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+#play_deck {
+
+    position: absolute;
+right: 125px;
+top: 370px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 100px;
+/* or 312% */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+#deck {
+    position: absolute;
+right: 100px;
+bottom: 120px;
+
+width: 250px;
+height: 350px;
+
+}
+
+#stash {
+
+    position: absolute;
+    bottom: 0px;
+    right: 165px;
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+/* or 208% */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+#opp_card {
+
+position: absolute;
+top: 500px;
+left: 800px;
+
+}
+
+#play_card {
+
+position: absolute;
+bottom: 400px;
+left: 800px;
+
+}
+
+#start {
+
+    position: absolute;
+    bottom: 200px;
+    left: 725px;
+    right: 800px;
+    height: 80px;
+    width: 200px;
+}
+
+button:disabled {
+
+    visibility: hidden;
+
+}

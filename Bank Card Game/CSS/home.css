@@ -1,0 +1,103 @@
+h1 {
+    position: absolute;
+width: 599px;
+height: 87px;
+left: 420px;
+top: 40px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 96px;
+line-height: 100px;
+/* or 104% */
+
+
+color: #000000;
+}
+
+hr {
+    position: absolute;
+    border: 0.5px solid #000000;
+    width: 818px;
+    top: 217px;
+    left: 275px;
+}
+
+
+h2 {
+    position: absolute;
+width: 403px;
+height: 100px;
+left: 509px;
+top: 170px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 100px;
+/* identical to box height, or 208% */
+
+
+color: #000000;
+
+}
+
+#singleplayer {
+    position: absolute;
+    background: #65C8D0;
+    width: 322.2px;
+    height: 78.58px;
+opacity: 0.85;
+left: 60%;
+top: 50%;
+text-align: center;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+border-radius: 35px;
+outline: none;
+border: none;
+/* or 333% */
+
+
+color: #000000;
+}
+
+#multiplayer {
+
+    position: absolute;
+    background-color: white;
+    width: 322.2px;
+    height: 78.58px;
+left: 60%;
+top: 62.6%;
+text-align: center;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+border-radius: 35px;
+/* or 333% */
+
+
+color: #000000;
+}
+
+#home {
+    position: absolute;
+width: 459px;
+height: 518px;
+left: 191px;
+top: 361px;
+}
+
+#settings {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+
+}
+

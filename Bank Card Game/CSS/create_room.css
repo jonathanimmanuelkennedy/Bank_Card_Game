@@ -1,0 +1,282 @@
+h1 {
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    
+    color: #3C3C3B;
+}
+
+#back {
+    position: absolute;
+width: 75px;
+height: 75px;
+right: 100px;
+top: 85px;
+
+}
+
+#first {
+    
+    position: absolute;
+    left: 4.79%;
+    right: 4.93%;
+    top: 170px;
+    
+    background: #000000;
+
+}
+
+#name {
+    position: absolute;
+height: 80px;
+left: 100px;
+right: 100px;
+top: 220px;
+border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 45px;
+line-height: 100px;
+/* or 278% */
+outline: none;
+
+color: #000000;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+#second {
+    
+    position: absolute;
+    left: 4.79%;
+    right: 4.93%;
+    top: 300px;
+    
+    background: #000000;
+
+}
+
+#one {
+    position: absolute;
+width: 640px;
+height: 80px;
+left: 100px;
+top: 270px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 100px;
+/* or 357% */
+
+
+color: rgba(0, 0, 0, 0.6);
+
+}
+
+#players {
+
+    position: absolute;
+    height: 80px;
+    left: 100px;
+    right: 100px;
+    top: 400px;
+    border: none;
+        background-color: transparent;
+        resize: none;
+        outline: none;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 100px;
+    /* or 278% */
+    outline: none;
+    
+    color: #000000;
+    background: url(/Users/jonathanimmanuelkennedy/Documents/Programs/Projects/Vue_Projects/Bank_Card_Game_Project/IMAGES/dropdown.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+select::-ms-expand { display: none; }
+
+#third {
+    
+    position: absolute;
+    left: 4.79%;
+    right: 4.93%;
+    top: 480px;
+    
+    background: #000000;
+
+}
+
+#two {
+    position: absolute;
+width: 640px;
+height: 80px;
+left: 100px;
+top: 445px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 100px;
+/* or 357% */
+
+
+color: rgba(0, 0, 0, 0.6);
+
+}
+
+#decks {
+
+    position: absolute;
+    height: 80px;
+    left: 100px;
+    right: 100px;
+    top: 570px;
+    border: none;
+        background-color: transparent;
+        resize: none;
+        outline: none;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 100px;
+    /* or 278% */
+    outline: none;
+    
+    color: #000000;
+    background: url(/Users/jonathanimmanuelkennedy/Documents/Programs/Projects/Vue_Projects/Bank_Card_Game_Project/IMAGES/dropdown.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+#fourth {
+    
+    position: absolute;
+    left: 4.79%;
+    right: 4.93%;
+    top: 645px;
+    
+    background: #000000;
+
+}
+
+#three {
+    position: absolute;
+width: 640px;
+height: 80px;
+left: 100px;
+top: 610px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 100px;
+/* or 357% */
+
+
+color: rgba(0, 0, 0, 0.6);
+
+}
+
+#settings {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+
+}
+
+#create {
+
+    position: absolute;
+width: 322.2px;
+height: 78.58px;
+left: 100px;
+top: 760px;
+border: none;
+outline: none;
+
+text-align: center;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+border-radius: 35px;
+
+background: #65C8D0;
+
+}
+
+#lounge {
+
+    position: absolute;
+width: 322.2px;
+height: 78.58px;
+left: 100px;
+top: 885px;
+
+text-align: center;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+border-radius: 35px;
+
+background-color: white;
+
+}
+
+#four {
+
+    position: absolute;
+    width: 139px;
+    height: 88px;
+    right: 60px;
+    top: 710px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 100px;
+    /* or 250% */
+    
+    
+    color: #000000;
+
+}
+
+#private {
+
+    position: absolute;
+width: 100;
+height: 50px;
+right: 250px;
+top: 770px;
+
+}
